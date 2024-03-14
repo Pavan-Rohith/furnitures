@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Furniture2</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        /*mobile*/
+ @media screen and (max-width:256px) and (min-width:156px) {
+    body{
+        background-color: violet;
+       
+        
+    }
+    .responsive-example {
+        width:100%;
+        display: inline-block;
+    }
+    
+}
+/*tabs*/
+@media screen and (max-width:400px) and (min-width:300px) {
+    body{
+        background-color: green;
+       
+    }
+    .responsive-example {
+        width: 49%;
+        display: inline-block;
+    }
+    
+}
+/*small size laptops*/
+@media screen and (max-width:700px) and (min-width:590px) {
+    body{
+        background-color:aqua;
+        
+        
+    }
+    .responsive-example {
+        width: 30%;
+        display: inline-block;
+
+        
+    }
+    
+}
+/*large size screens*/
+@media screen and (max-width:800px) and (min-width:750px) {
+    body {
+        background-color: blue;
+        
+    .responsive-example {
+        width:24%;
+        display: inline-block;
+    }
+        
+    }
+    
+}
+.nav-bar-links li{
+    display:inline-block;
+    list-style-type: none;
+    margin-top: 60px;
+    padding: 10px;
+    align-items: end;
+    gap: 10px;
+}
+.ford{
+    margin-bottom: 70px;
+}
+.nav-bar-links a{
+    text-decoration: none;
+    color:black;
+}
+.nav-bar h1{
+    color: brown;
+}
+.search-box{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.nav-bar{
+    column-gap: 100px;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 10px;
+}
+.features {
+    display: flex;
+}
+p{
+    margin-top: 30px;
+}
+img {
+    margin-left: 30px;
+    
+}
+.chairs img{
+    margin-left: 500px;
+    border-radius: 50px;
+}
+.mainchair{
+    animation: rotate chair 5 sec;
+    animation-duration: 5s;
+}
+.section2{
+    height:200px;
+    width:1100px;
+    margin-left: 160px;
+}
+.section3{
+    height:200px;
+    width:1100px;
+    margin-left: 160px;
+}
+.section3 p{
+    text-align: center;
+}
+.section3 chair2 img{
+    margin-left: 2900px;
+    float: right;
+}
+footer,right{
+    display: grid;
+    width: 500px;
+    height: 400px;
+}
+.section4{
+    color: antiquewhite;
+}
+.section4 img{
+    margin-left: 30px;
+}
+.image{
+    margin-left: 250px;
+}
+.section6 blogs{
+    display: grid;
+}
+.section6{
+    background-color: aquamarine;
+    display: grid;
+}
+.right{
+    color: whitesmoke;
+    margin-left: 330px;
+    margin: 1rem;
+    padding: 80px;
+}
+.right h1{
+    margin-top: 30px;
+}
+.white p{
+    margin-top: 100px;
+}
+.right button{
+    background-color: blue;
+    background-position: center;
+    border-color: chartreuse;
+    border-radius: 50px;
+    color: wheat;
+}
+.color{
+    display: flex;
+}
+main ul li{
+    display: flex;
+
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+
+}
+.main2{
+    padding: 20px;
+    width: 750px;
+    height: 380px;
+    text-align: center;
+    margin-left: 300px;
+}
+.main2 button{
+    border-radius: 50px;
+    background-color: gray;
+    color: azure;
+}
+.right img {
+   
+    margin-bottom: 550px;
+    width: 200px;
+    height: 200px;
+  
+}
+.study{
+    display: flex;
+    margin-bottom: 400px;
+}
+.minicard{
+    width: 100%;
+    height: 400px;
+    display: grid;
+}
+.innercard{
+    height: 120px;
+    width: 320px;
+    border-radius: 5px;
+}
+.innercard img{
+    border-radius: 10px;
+}
+.nine {
+    text-align: center;
+}
+h1{
+    color:blueviolet;
+}
+p{
+    color:green;
+}
+.fed{
+    display: grid;
+}
+    </style>
+    <body>
+        <div class="nav-bar d-flex ">
+            <div class="ford">
+                <img  src="https://capstonep.netlify.app/logo.png" alt="FurniFuture" height="200px" width="200px" <h1>FurniFuture</h1>
+            </div>
+            <div class="">
+                <form class="search-box">
+                    <input type="text" placeholder="Search...">
+                    <button>Search</button>
+                </form>
+                </div>
+                <div class="nav-bar-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+               </div>
+               <div class="row">
+                <div class="col-12 bg-warning" style="height:550px" >
+                    <div>
+                        <p class="bg-success">30% of all the products</p>
+                        <p class="ms-3"> Furniture <> Future</p>
+                        <h1 class="ms-3"> FurniFuture</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at it layout.
+                            The point of using</p>
+                            <button class="btn btn-success" width="40px" height="40px">Explore Now-></button>
+        
+                        <div class="features">
+                            <img src="https://capstonep.netlify.app/cargo-truck-removebg-preview.png" alt="" height="100px" width="100px">
+                            <p>100% free shipping</p>
+
+                            <img src="https://capstonep.netlify.app/place-removebg-preview.png" alt="" height="100px" width="100px">
+                            <p>All across the world</p>
+
+                            <img src="https://capstonep.netlify.app/insurance-removebg-preview.png" alt="" height="100px" width="100px">
+                            <p>2 Years Warranty</p>
+                            <div class="chair">
+                                <img class="mainchair" src="https://capstonep.netlify.app/mainchair.png" class="rounded float-end" height="250px" width="250px"  />
+                            </div>
+
+                        </div>
+                    </div>
+               </div>
+               <div class="row">
+                <div class=" bg-primary mt-4 d-flex section2" >
+                    <div class="century ">
+                        <h1>21st Century</h1><br>
+                        <bold>Furniture Trends</bold>
+                        <h1>-></h1>
+                        </div>
+                        <div>
+                            <img class="chairs" src="https://capstonep.netlify.app/chair-1.png.png" alt="" height="150px" width="150px">
+    
+                            <img class="chairs" src="https://capstonep.netlify.app/chair-2.png.png" alt="" height="150px" width="150px">
+    
+                            <img class="chairs" src="https://capstonep.netlify.app/chair-3.png.png" alt="" height="150px" width="150px">    
+                    </div>
+                   
+                
+                </div>
+               </div>
+               <div class="responsive-example">
+                <div class="bg-secondary mt-4 d-flex section3">
+                    <img class="chair1" src="https://capstonep.netlify.app/side-2.png.png" alt="" height="150px" width="150px">
+
+                    <p>Furniture for every <br>
+                     
+                    Family Occasions</p>
+
+                    <img class="chair2" src="https://capstonep.netlify.app/side-1.png.png" alt="" height="150px" width="150px">
+
+                    <div class="square-box"></div>
+                </div>
+               </div>
+               <div class=" fed responsive-example bg-danger-subtle mt-4 gap-2  ">
+                <div class="col-6 bg-danger-subtle ms-3 m-2 gap-2 d-flex section">
+                    <div class="cushion">
+                        <h3>10% Off</h3>
+                        <h1>Resting</h1>
+                        <bold>Cushions</bold>
+                        <h2>Shop Now</h2>
+                        </div>
+                        <div>
+                        <img class="image d-flex" src="https://capstonep.netlify.app/cushions-1.png.png" alt="" height="300px" width="200px">
+
+                    </div>
+                    <div class="cushion2 ">
+                        <h3>20% Off</h3>
+                        <h1>Study</h1>
+                        <bold>Tables</bold>
+                        <h2>Shop Now</h2>
+                        </div>
+                        <div>
+                        <img class="image2 d-flex" src="https://capstonep.netlify.app/cushions-2.png.png" alt="" height="280px" width="280px">
+                    </div>
+        
+                </div>
+               </div>
+
+               <div class="responsive-example">
+                <div class="bg-dark mt-3 d-flex">
+                    <div class="left">
+                        <div class="image">
+                            <img src="https://capstonep.netlify.app/left-4.png.png" alt="" height="150px" width="150px">
+                        </div>
+                        <div class="image">
+                            <img src="https://capstonep.netlify.app/left-2.png.png" alt="" height="150px" width="150px">
+                        </div>
+                        <div class="image">
+                            <img src="https://capstonep.netlify.app/left-1.png.png" alt="" height="150px" width="150px">
+                        </div>
+                        <div class="image">
+                            <img src="https://capstonep.netlify.app/left-3.png.png" alt="" height="150px" width="150px">
+                        </div>
+                    </div>
+                    <div class="right ">
+                        <h1 class="whitesmoke">Explore Advanced Beside Collection</h1>
+                        <p class="white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                            <br>
+                            <b class="white">The point of using</b>
+                        </p>
+                        <ul>
+                            <div class="circle">
+                                <h1 class="tick"></h1>
+                                <li>
+                                    100% Recycled wood</li>
+                            </div>
+                            <div class="circle">
+                                <h1 class="tick"></h1>
+                                <li>
+                                    Trendy Designs</li>
+                            </div>
+                            <div class="circle">
+                                <h1 class="tick"></h1>
+                                <li>
+                                    Eco ffriendly colors</li>
+                            </div>  
+                        </ul>
+                        <button class="btn-primary">Shop Now-></button>
+
+                    </div>
+                </div>
+               </div>
+               <div class="responsive-example">
+                <div class="main">
+                    <h1>Highest Rated Products</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        The point of using</p>
+                        <ul>
+                        <div class="color d-flex">
+                            <li>tables</li>
+                        </div>  
+                                <li>Tables</li>
+                                <li>Lights</li>
+                                <li>Lamps</li>
+                                <li>Beds</li>
+                            </ul>
+                        <div class="row column-gap-3 d-flex justify-content-between ms-2 m-2">
+                            <div class="card col-4 bg-danger-subtle " style="width:300px; ">
+                                <img src="https://capstonep.netlify.app/ws.png.png" alt="" height="120px" width="120px" class="mt-2" >
+                                <div class="card-body">
+                                    <h4> Norwegian Woods </h4>
+                                    <h4 class="star">⭐⭐⭐⭐⭐</h4>
+                                    <h4>₹ 19,229/-<strong>(10% Off)</strong></h4>
+                            </div>
+                            </div>  
+                            <div class="card col-4 bg-light " style="width:300px; ">
+                                <img src="https://capstonep.netlify.app/wc-2.png.png" alt="" height="120px" width="120px" class="mt-2" >
+                                <div class="card-body">
+                                    <h4> Oakwood Classic </h4>
+                                    <h4 class="star">⭐⭐⭐⭐⭐</h4>
+                                    <h4>₹ 16,223/-<strong>(12% Off)</strong></h4>
+                            </div>
+                            </div>  
+                            <div class="card col-4 bg-primary" style="width:300px; ">
+                                <img src="https://capstonep.netlify.app/wd.png.png" alt="" height="120px" width="120px" class="mt-2" >
+                                <div class="card-body">
+                                    <h4> School Desk </h4>
+                                    <h4 class="star">⭐⭐⭐⭐⭐</h4>
+                                    <h4>₹ 39,228/-<strong>(10% Off)</strong></h4>
+                            </div>
+                            </div>
+                            <div class="card col-2 bg-secondary" style="width:300px; ">
+                                <img src="https://capstonep.netlify.app/rcb.png.png" alt="" height="120px" width="120px" class="mt-2" >
+                                <div class="card-body">
+                                    <h4> Regular Cupboard </h4>
+                                    <h4 class="star">⭐⭐⭐⭐⭐</h4>
+                                    <h4>₹ 19,229/-<strong>(10% Off)</strong></h4>
+                            </div>
+                            </div> 
+                            <div class="card col-2 bg-light mt-3" style="width:300px; ">
+                                <img src="https://capstonep.netlify.app/od.png.png" alt="" height="120px" width="120px" class="mt-2" >
+                                <div class="card-body">
+                                    <h4> Office Desk </h4>
+                                    <h4 class="star">⭐⭐⭐⭐⭐</h4>
+                                    <h4>₹ 19,229/-<strong>(10% Off)</strong></h4>
+                            </div>
+                            </div> 
+                            <div class="card col-2 bg-success mt-3" style="width:300px; ">
+                                <img src="https://capstonep.netlify.app/ms.png.png" alt="" height="120px" width="120px" class="mt-2" >
+                                <div class="card-body">
+                                    <h4> Modern Seater </h4>
+                                    <h4 class="star">⭐⭐⭐⭐⭐</h4>
+                                    <h4>₹ 14,223/-<strong>(12% Off)</strong></h4>
+                            </div>
+                            </div> 
+                            <div class="card col-2 bg-danger mt-3" style="width:300px; ">
+                                <img src="https://capstonep.netlify.app/rcs.png.png" alt="" height="120px" width="120px" class="mt-2" >
+                                <div class="card-body">
+                                    <h4> Reader Comfort </h4>
+                                    <h4 class="star">⭐⭐⭐⭐⭐</h4>
+                                    <h4>₹ 39,228/-<strong>(10% Off)</strong></h4>
+                            </div>
+                            </div> 
+                            <div class="card col-2 bg-danger-subtle mt-3" style="width:300px; ">
+                                <img src="https://capstonep.netlify.app/wt-1.pg.png" alt="" height="120px" width="120px" class="mt-2" >
+                                <div class="card-body">
+                                    <h4> Classic Wood </h4>
+                                    <h4 class="star">⭐⭐⭐⭐⭐</h4>
+                                    <h4>₹ 17,229/-<strong>(10% Off)</strong></h4>
+                            </div>
+                            </div> 
+
+                            <div class="main2 bg-danger-subtle d-flex mt-3 ">
+                                <div>
+                                <h1 class="mt-3 p-3 margin-left-3">Furniture</h1>
+                                <h2 class="">For Any Occasion</h2>
+                                <button class=" btn-success">Shop Now-></button>
+                               </div>
+                                <div class="right d-flex ">
+                                    <img class="mb-3 d-flex" src="https://capstonep.netlify.app/sofaa.png.png" alt="" height="600px" width="600px">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="nine bg-danger-subtle mt-4">
+                            <h1>Customers<strong> Loove Us</strong></h1>
+                            <p>Here are few of the glowing from our customers</p>
+
+                            <div class=" col-12  minicard row d-flex bg-danger-subtle ms-5 m-1 ">
+                                <div class="innercard bg-light mt-2 d-flex ms-5">
+                                  <div class="card-img-top d-flex">
+                                      <img class="mt-3 bg-dark " src="https://capstonep.netlify.app/ps-1.png" alt="" height="80px" width="80px">
+                                  </div>
+                                  <div class="card-body mt-3">
+                                      <h6>Incredible,Highest quality wood,& impeccable designs</h6>
+                                      <h6>⭐⭐⭐⭐⭐</h6>
+                                  </div>
+                                </div>
+
+                                <div class="innercard bg-light mt-2 d-flex ms-5">
+                                  <div class="card-img-top d-flex">
+                                      <img class="mt-3 bg-dark " src="https://capstonep.netlify.app/ps-2.png" alt="" height="80px" width="80px">
+                                  </div>
+                                  <div class="card-body mt-3">
+                                      <h6>Amazing collection of chairs & arm rests, loved it</h6>
+                                      <h6>⭐⭐⭐⭐⭐</h6>
+                                  </div>
+                                </div>
+
+                                <div class="innercard bg-light mt-2 d-flex ms-5">
+                                          <div class="card-img-top d-flex">
+                                              <img class="mt-3 bg-dark " src="https://capstonep.netlify.app/ps-3.png" alt="" height="80px" width="80px">
+                                          </div>
+                                          <div class="card-body mt-3">
+                                              <h6>Incredibly fast shipping, premium quality experience</h6>
+                                              <h6>⭐⭐⭐⭐⭐</h6>
+                                          </div>
+                                      </div>
+
+                                      <div class="innercard bg-light mt-2 d-flex ms-5">
+                                        <div class="card-img-top d-flex">
+                                            <img class="mt-3 bg-dark " src="https://capstonep.netlify.app/ps-4.png.png" alt="" height="80px" width="80px">
+                                        </div>
+                                        <div class="card-body mt-3">
+                                            <h6>Best furniture I have bought, hands down the best</h6>
+                                            <h6>⭐⭐⭐⭐⭐</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="innercard bg-light mt-2 d-flex ms-5">
+                                        <div class="card-img-top d-flex">
+                                            <img class="mt-3 bg-dark " src="https://capstonep.netlify.app/ps-5.png.png" alt="" height="80px" width="80px">
+                                        </div>
+                                        <div class="card-body mt-3">
+                                            <h6>Amazing support, 24/7 Highest quality materials</h6>
+                                            <h6>⭐⭐⭐⭐⭐</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="innercard bg-light mt-2 d-flex ms-5">
+                                        <div class="card-img-top d-flex">
+                                            <img class="mt-3 bg-dark " src="https://capstonep.netlify.app/ps-6.png.png" alt="" height="80px" width="80px">
+                                        </div>
+                                        <div class="card-body mt-3">
+                                            <h6>Most reputed company in furniture, im a life long customer</h6>
+                                            <h6>⭐⭐⭐⭐⭐</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="innercard bg-light mt-2 d-flex ms-5">
+                                        <div class="card-img-top d-flex">
+                                            <img class="mt-3 bg-dark " src="https://capstonep.netlify.app/ps-7.png.png" alt="" height="80px" width="80px">
+                                        </div>
+                                        <div class="card-body mt-3">
+                                            <h6>My clients love this furniture, changes the look of interiors</h6>
+                                            <h6>⭐⭐⭐⭐⭐</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="innercard bg-light mt-2 d-flex ms-5">
+                                        <div class="card-img-top d-flex">
+                                            <img class="mt-3 bg-dark " src="https://capstonep.netlify.app/ps-8.png.png" alt="" height="80px" width="80px">
+                                        </div>
+                                        <div class="card-body mt-3">
+                                            <h6>Great discounts, great prices, amazing products.</h6>
+                                            <h6>⭐⭐⭐⭐⭐</h6>
+                                        </div>
+                                    </div>
+                                      </div>
+
+                      </div>
+                        </div>
+                        
+                        
+                        
+                        
+
+               <div class="responsive-example">
+                <div class="col-12 bg-light section6 mt-3 m-4">
+                    <h1>Check out Your Blog</h1>
+                </div>
+                <div class="blogs d-flex w-100 h-100 m-3 ">
+                    <div class="blog">
+                        <div class="card">
+                            <img src="https://capstonep.netlify.app/ss2.png" alt="" height="230px" width="230px">
+                            <div class="card-body">
+                                <p>101 Ways to decorate your interiors,making sure,everything....</p>
+                            </div>
+                        </div>           
+                 </div>
+                    <div class="blog">
+                        <div class="card">
+                            <img class="mt-2" src="https://capstonep.netlify.app/sofa.png" alt="" height="230px" width="230px">
+                            <div class="card-body">
+                                <p>Blog Two, matching colors with furniture and carpets....</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <div class="card">
+                            <img class="mt-2" src="https://capstonep.netlify.app/ssp.png" alt="" height="230px" width="230px">
+                            <div class="card-body">
+                                <p class="color=blue">How antique furniture can bring character to your home....</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+               <div class="responsive-example">
+                <div class="bg-dark mt-4 d-flex section4">
+                    <div class="century ">
+                        <h1 class="color-white">21st Century</h1><br>
+                        <b class="color-white">Furniture Trends</b>
+                        <h1 class="color-white">-></h1>
+                        </div>
+                        <div>
+                            <img class="chairs" src="https://capstonep.netlify.app/chair-1.png.png" alt="" height="150px" width="150px">
+    
+                            <img class="chairs" src="https://capstonep.netlify.app/chair-2.png.png" alt="" height="150px" width="150px">
+    
+                            <img class="chairs" src="https://capstonep.netlify.app/chair-3.png.png" alt="" height="150px" width="150px">    
+                    </div>
+
+                </div>
+               </div>
+               <div class="responsive-example mt-4 mb-0">
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="1104" height="800" id="gmap_canvas" src="https://maps.google.com/maps?q=++jubilee+hills+hyderabad+&t=&z=12&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://online.stopwatch-timer.net/pomodoro-timer">tomato timer</a><br><a href="https://www.calc-calc.com/">calculator</a><br><style>.mapouter{position: relative;text-align: right;height: 746px;width: 1004px;}</style><a href="https://www.ongooglemaps.com">google maps embed iframe</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 746px;width: 1004px;}</style></div></div>
+               </div>
+               <div class="footer bg-light mt-4 ">
+                <div class="left ">
+                    <img  src="https://capstonep.netlify.app/logo.png" alt="FurniFuture" height="100px" width="100px" <h1>FurniFuture</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at it layout.
+                        The point of using</p> 
+                        <form class="search-box">
+                            <input type="text" placeholder="Search...">
+                            <button>Search</button>
+                        </form>  
+                </div>
+                <div class="study bg-primary d-flex justify-content-between gap-1 w-100 h-30 ">
+                    <div class="feature">
+                        <h2>Categories</h2>
+                            <p>Chairs</p>
+                            <p>Tables</p>
+                            <p>Bed Lamps</p>
+                            <p>Study Desks</p>
+                    </div>
+                    <div class="feature">
+                        <h2>Navigation</h2>
+                    
+                            <p>Home</p>
+                            <p>About Us</p>
+                            <p>Menu</p>
+                            <p>Shopping</p>
+
+                        
+                    </div>
+                    <div class="feature">
+                        <h2>Other Links</h2>
+                            <p>Partner with us</p>
+                            <p>offline stories</p>
+                            <p>Payments</p>
+                            <p>Profile</p>
+
+                    </div>
+                </div>
+               </div>
+    </body>
+</html>
